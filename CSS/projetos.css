@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-left: 3rem;
+
+    width: 100%
+}
+
+
+.opcoes {
+    width: 20rem;
+    height: 25rem;
+
+    background-color: rgb(221, 221, 221);
+    box-shadow: rgb(141, 141, 141) 0.5rem 0.5rem 1rem;
+
+    border-radius: 1rem;
+
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+
+    transition: box-shadow 0.15s
+}
+
+.opcoes img {
+    height: calc(100% - 2.8rem);
+
+    position: relative;
+
+    float: left;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    margin-top: 0.4rem;
+
+    border-radius: 1rem;
+
+    pointer-events: none;
+}
+
+.opcoes p {
+    text-align: center;
+    width: inherit;
+
+    font-size: 1.2rem;
+
+    line-height: 2rem;
+
+    pointer-events: none
+}
+
+
+#add {
+    font-size: 15rem;
+
+    height: 24.5rem;
+    width: 19.5rem;
+
+    line-height: 150%;
+    text-align: center;
+
+    color: rgb(68, 68, 68);
+    border: 0.25rem double rgb(116, 116, 116);
+}
+
+.opcoes:hover {
+    box-shadow: 0.075rem 0.075rem 0.5rem
+}

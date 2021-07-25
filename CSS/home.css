@@ -1,0 +1,91 @@
+/*
+.div-home {
+    position: relative;
+    float: left;
+
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1rem;
+
+    background-color: rgb(221, 221, 221);
+
+    height: 15rem;
+    width: 80%;
+
+    border-radius: 1rem;
+    
+    box-shadow: rgb(116, 116, 116) 1rem 1rem 2rem
+}
+*/
+
+#title {
+    font-size: 3rem;
+}
+
+
+section {
+    overflow-x: hidden;
+    margin-left: 4rem;
+
+    background-image: url("../Images/eco.jpg");
+    background-size: cover;
+}
+
+
+h2 {
+    font-size: 2.3rem;
+
+    text-align: center;
+    margin-top: 3rem
+}
+
+.container {
+    width: 100%;
+    height: 25rem;
+
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+
+    position: relative;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background-color: rgba(221, 221, 221, 0.35);
+
+    border: 0.1rem solid rgb(134, 134, 134);
+}
+
+.opcoes img {
+   width: 100%;
+}
+
+.opcoes {
+    width: 15rem;
+    height: 20rem;
+
+    border-radius: 1rem;
+    margin-left: 20%;
+    margin-top: 2.5rem;
+
+    background-color: rgb(200, 200, 200);
+
+    box-shadow: rgb(59, 59, 59) 0.5rem 0.5rem 2rem;
+
+    transition: background-color 0.25s;
+}
+
+.opcoes:hover {
+    background-color: rgb(180, 180, 180)
+}
+
+.opcoes p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#p1 {
+    line-height: 4rem;
+}
