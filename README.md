@@ -1,4 +1,4 @@
-# call-for-code-nacional
+# call-for-code-america-latina
 Repo da fase a nível da da Hackathon Call For Code
 
 ### Link:
